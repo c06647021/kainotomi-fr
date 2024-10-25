@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,12 +9,13 @@
 <body>
     <!-- En-tête -->
     <header>
-        <div class="container">
+        <div class="container header-container">
             <h1>Kainotomi</h1>
             <nav>
                 <ul>
                     <li><a href="#accueil">Accueil</a></li>
-                    <li><a href="#articles">Analyses</a></li>
+                    <li><a href="#analyses">Analyses</a></li>
+                    <li><a href="#tendances">Tendances</a></li>
                     <li><a href="#a-propos">À propos</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -25,59 +25,54 @@
 
     <!-- Section d'accueil -->
     <section id="accueil" class="hero">
-        <div class="container">
-            <h2>Votre référence en analyses économiques et innovations technologiques</h2>
+        <div class="container hero-content">
+            <h2>Analyses économiques au cœur de l'innovation</h2>
+            <p>Découvrez les tendances, les nouvelles technologies, et les startups qui façonnent l'avenir.</p>
         </div>
     </section>
 
-    <!-- Section des articles -->
-    <section id="articles" class="articles">
+    <!-- Section Analyses en vedette -->
+    <section id="analyses" class="analyses-section">
         <div class="container">
-            <h2>Dernières analyses</h2>
-            <div class="article-list">
+            <h2>Analyses en vedette</h2>
+            <div class="articles-grid">
                 <article>
+                    <img src="image1.jpg" alt="Article 1">
                     <h3>La révolution des startups en IA</h3>
-                    <p>Découvrez comment l'IA transforme les entreprises, des PME aux géants industriels.</p>
-                    <a href="#">Lire la suite</a>
+                    <p>Comment l'intelligence artificielle transforme le paysage économique global.</p>
                 </article>
                 <article>
-                    <h3>Innovations écologiques : les enjeux économiques</h3>
-                    <p>Explorez l'impact des nouvelles technologies vertes sur l'économie globale.</p>
-                    <a href="#">Lire la suite</a>
+                    <img src="image2.jpg" alt="Article 2">
+                    <h3>Innovations écologiques : impacts économiques</h3>
+                    <p>Les nouvelles technologies vertes et leur influence sur l'économie mondiale.</p>
                 </article>
                 <article>
-                    <h3>La blockchain et les économies émergentes</h3>
-                    <p>Analyse des effets de la blockchain sur le développement économique des pays en croissance.</p>
-                    <a href="#">Lire la suite</a>
+                    <img src="image3.jpg" alt="Article 3">
+                    <h3>Blockchain et économies émergentes</h3>
+                    <p>Analyse des effets de la blockchain sur les marchés en croissance.</p>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- Section À propos -->
-    <section id="a-propos" class="about">
+    <!-- Section Tendances -->
+    <section id="tendances" class="tendances-section">
         <div class="container">
-            <h2>À propos de Kainotomi</h2>
-            <p>Kainotomi est dédié à l'analyse des innovations économiques et technologiques.</p>
-        </div>
-    </section>
-
-    <!-- Section Contact -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contactez-nous</h2>
-            <form action="#" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
-                <button type="submit">Envoyer</button>
-            </form>
+            <h2>Tendances</h2>
+            <div class="tendances-content">
+                <div class="tendance">
+                    <h4>Fintech</h4>
+                    <p>Les startups financières redéfinissent le secteur bancaire avec l'innovation technologique.</p>
+                </div>
+                <div class="tendance">
+                    <h4>Économie verte</h4>
+                    <p>Les solutions durables prennent une place croissante dans les stratégies des entreprises.</p>
+                </div>
+                <div class="tendance">
+                    <h4>Transformation numérique</h4>
+                    <p>L'automatisation et le digital transforment les secteurs traditionnels de l'industrie.</p>
+                </div>
+            </div>
         </div>
     </section>
 
